@@ -38,12 +38,11 @@ const NoteListComponent = () => {
 
   return (
     <Container>
-      <Row className="my-4 d-flex align-items-center justify-content-center">
           <h1 className="my-4 d-flex align-items-center justify-content-center">Notes</h1>
+      <div className="my-4 d-flex fle-row align-items-center justify-content-center">
           <Button  onClick={() => navigate("/new")} variant="primary" className="me-2" style={{width:"100px"}}>Create</Button>
           <EditTagsModal />
-        
-      </Row>
+      </div>
       <Row className="my-4">
         <Col md={{ span: 6, offset: 3 }}>
           <Form>
