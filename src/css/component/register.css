@@ -1,0 +1,85 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+.image{
+  width: 50%;
+  height: 100vh;
+}
+.register{
+  background-color: #fff;
+  padding: 5px 30px;
+  width: 50%; 
+}
+.register h2{
+  position: relative;
+  margin-bottom: 30px;
+  text-shadow: 1px 2px 3px rgb(0,0, 0);
+}
+.register h2::before{
+width: 65%;
+box-shadow: 1px 1px 2px rgb(0, 0,0 );
+content: "";
+position: absolute;
+width: 75px;
+height: 6px;
+border-radius: 6px;
+background-color: black;
+bottom:-15px;
+}
+.input{
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  outline:none ;
+  border: 1px solid #ccc;
+}
+
+.gender{
+  margin-bottom: 5px;
+}
+.radio{
+  width: 100%;
+}
+label{
+  font-size: 18px;
+  font-weight: 600;
+}
+.radio .col label{
+  font-size: 13px;
+}
+.button{
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  border-radius: 20px;
+  background-color: #091632;
+  padding: 5px;
+  color: white;
+  font-size: 18px;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.error{
+  color: red;
+  font-size: 11px;
+}
+.radio-label{
+  margin-left: 5px;
+}
+.password{
+  position: relative;
+  margin-bottom: 5px !important;
+}
+.eye{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.select{
+  border: none;
+  outline: none;
+}
